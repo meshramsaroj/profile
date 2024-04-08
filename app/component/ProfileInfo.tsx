@@ -5,7 +5,7 @@ import { EmailIcon, GitHub, GithubProfile, LinkedIn } from "../incons/incons"
 import Link from "next/link"
 const ProfileInfo = () => {
   return (
-    <section className="w-1/4 bg-slate-800 text-white p-3 max-h-full min-h-screen border-r-2">
+    <section className="w-1/4 bg-slate-800 text-white p-3 max-h-full min-h-screen border-r-2 fixed">
         <div className="flex justify-center"><Image src={profileImg} alt='profile-img' width={200} height={200} 
         className="rounded-full border-1" />
         </div>
