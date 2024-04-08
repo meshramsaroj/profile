@@ -5,7 +5,7 @@ import { useState } from "react"
 
 const ExperianceDetails = ({query}: any) => {
   return (
-   <div className="flex flex-col gap-3 px-4">{data[query]?.map((exp: any) => <ExperianceCard detail={exp} />)}</div>
+   <div className="flex flex-col gap-3 px-4">{data[query]?.map((exp: any) => <ExperianceCard detail={exp} key={exp.id} />)}</div>
   )
 }
 
